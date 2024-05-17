@@ -1,7 +1,7 @@
 -- Azure SQL query to grant database permissions to ADD (or AD) groups.
 
 -- un on MasterDB
-CREATE USER [ACL_GrantLogin_vFrohnSQL] FROM EXTERNAL PROVIDER
+CREATE USER [ACL_GrantLogin_CFP-SQLServer] FROM EXTERNAL PROVIDER
 
 -- Run on DB
 CREATE USER [ACL_DBOwner_MyDatabase01] FROM EXTERNAL PROVIDER
