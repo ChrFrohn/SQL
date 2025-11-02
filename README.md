@@ -1,17 +1,20 @@
 # SQL Repository
 
-Welcome to the SQL repository! This repository contains SQL scripts and queries related to my everyday work with Azure SQL Database, SQL Server, and database administration. Some of the code is associated with blog posts on my blog: [Christianfrohn.dk](https://www.christianfrohn.dk/).
+Welcome to the SQL repository! This repository contains SQL scripts and queries related to my everyday work with Azure SQL Database, SQL Server, and database administration. Some of the code is associated with blog posts on my blog: [SQL Blog Posts](https://www.christianfrohn.dk/tag/sql/).
 
 ## Table of Contents
 
 ### Azure SQL Database Permissions
 - [AssignDatabasePermissionstoADDGroups.sql](https://github.com/ChrFrohn/SQL/blob/main/AssignDatabasePermissionstoADDGroups.sql)
   - Complete script to grant database permissions to Microsoft Entra ID groups
-  - Blog post: [Assign Azure SQL database permissions to AAD group](https://www.christianfrohn.dk/)
 - [CreateUserOnMaster.sql](https://github.com/ChrFrohn/SQL/blob/main/CreateUserOnMaster.sql)
   - Create login grant user in master database
 - [VerifyEntraIDPermissions.sql](https://github.com/ChrFrohn/SQL/blob/main/VerifyEntraIDPermissions.sql)
   - Verify Microsoft Entra ID users and groups with their role memberships
+
+### Microsoft Entra Service Principals
+- [AddServicePrincipalToAzureSQLDatabase.sql](https://github.com/ChrFrohn/SQL/blob/main/AddServicePrincipalToAzureSQLDatabase.sql)
+  - Add Microsoft Entra service principal to Azure SQL Database with db_owner permissions
 
 ### Sample Data Scripts
 - [CreateAndInsertData-API-Driven-Sample.SQL](https://github.com/ChrFrohn/SQL/blob/main/CreateAndInsertData-API-Driven-Sample.SQL)
